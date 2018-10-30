@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-extension-manifest.schema.json",
 
-  "id": "7b9e4558-4711-4fce-a8d2-28f885456b79",
+  "id": "407c4fbc-873e-4729-886a-4a64a5a44edb",
   "alias": "PromtsApplicationCustomizer",
   "componentType": "Extension",
   "extensionType": "ApplicationCustomizer",

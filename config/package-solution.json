@@ -2,15 +2,14 @@
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
     "name": "promts-client-side-solution",
-    "id": "e62dfe46-1d9c-419c-87f3-1d56100734e1",
+    "id": "5a91c38e-0c55-426d-8860-c60918e70192",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
-    "skipFeatureDeployment": true,
     "features": [
       {
         "title": "Application Extension - Deployment of custom action.",
         "description": "Deploys a custom action with ClientSideComponentId association",
-        "id": "1291869c-e3a8-4a0a-a5fc-b6b0a8536fd7",
+        "id": "129597f5-8f6b-49a6-b3fb-2fba56b48db6",
         "version": "1.0.0.0",
         "assets": {
           "elementManifests": [

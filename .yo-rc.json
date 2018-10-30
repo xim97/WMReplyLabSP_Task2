@@ -4,7 +4,7 @@
     "environment": "spo",
     "version": "1.6.0",
     "libraryName": "promts",
-    "libraryId": "e62dfe46-1d9c-419c-87f3-1d56100734e1",
+    "libraryId": "5a91c38e-0c55-426d-8860-c60918e70192",
     "packageManager": "npm",
     "componentType": "extension",
     "extensionType": "ApplicationCustomizer"
