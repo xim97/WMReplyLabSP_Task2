@@ -36,7 +36,7 @@ export default class PromtsApplicationCustomizer
                 title: "Application Launcher",
                 message: "Opening the launcher to access Office 365 applications",
                 link: "link3",
-                selector: "#O3165_MainLink_NavMenu",
+                selector: "#O365_MainLink_NavMenu",
                 isShowed: false
             }
         ];
