@@ -15,8 +15,7 @@ export default class PromtsApplicationCustomizer
     extends BaseApplicationCustomizer<IPromtsApplicationCustomizerProperties> {
 
     @override
-    public onInit(): Promise<void> {
-        debugger;
+    public onInit(): Promise<void> {        
         const data: Array<any> = [
             {
                 title: "Options",
@@ -122,17 +121,5 @@ export default class PromtsApplicationCustomizer
         } else {
             return [false, undefined];
         }
-    }
-
-    private checkSelectors(data: Array<any>): boolean {
-        let result: boolean = true;
-        if (data !== undefined) {
-            data.forEach(item => {
-                if (document.body.querySelector(item.selector) === null) {
-                    result = false;
-                }
-            });
-        }
-        return result;
-    }
+    }    
 }
