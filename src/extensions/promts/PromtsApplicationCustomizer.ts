@@ -59,7 +59,7 @@ export default class PromtsApplicationCustomizer
 
     private isPromtElement(element: any): boolean {
         let currentElement: any = element;
-        while (currentElement !== document.body && !currentElement.classList.contains("ms-Layer")) {
+        while (currentElement !== document.body && !currentElement.classList.contains("callout")) {
             currentElement = currentElement.parentNode;
         }
         return currentElement !== document.body;
@@ -91,7 +91,7 @@ export default class PromtsApplicationCustomizer
         let numberOfCycles: number = 0;
         const intervalID: number = setInterval(() => {
             if (data !== undefined) {
-                data.forEach(item => {
+                data.forEach(item => {                    
                     if (!item.isShowed) {
                         tryToRenderPromtResult = that.tryToRenderPromt(item, instanceId, user);
                         item.isShowed = tryToRenderPromtResult[0];
